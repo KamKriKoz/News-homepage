@@ -1,0 +1,170 @@
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    float: inline-end;
+    margin-left: 22px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-right: 70px;
+}
+
+h2 {
+    color: rgb(233, 171, 83);
+    font-size: 2.5rem;
+    margin-top: -5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+button {
+    color: rgb(197, 198, 206);
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+p {
+    color: rgb(93, 95, 121);
+    line-height: 1.5;
+}
+
+hr {
+    background-color: rgb(197, 198, 206);
+    opacity: 60%;
+    height: 1px;
+    border-width: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+span {
+    color: rgb(197, 198, 206);
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(241, 94, 80);
+}
+
+.second-column a:hover {
+    color: rgb(233, 171, 83);
+}
+
+.inside-row button:hover {
+    background-color: rgb(0, 0, 26);
+}
+
+.box a:hover {
+    color: rgb(241, 94, 80);
+}
+
+.box a {
+    color:rgb(0, 0, 26);
+    text-decoration: none;
+}
+
+.second-column a {
+    color:rgb(255, 253, 250);
+    text-decoration: none;
+}
+
+.second-column p {
+    color: rgb(197, 198, 206);
+    line-height: 1.5;
+}
+
+.first-row h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.inside-row button {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 200px;
+    color: rgb(255, 253, 250);
+    background-color: rgb(241, 94, 80);
+    letter-spacing: 3px;
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+}
+
+.first-column img {
+    width: 95%;
+    margin-right: 20px;
+}
+
+.box img {
+    margin-right: 20px;
+    height: 130px;
+}
+
+.box p {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.first-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.first-column {
+    display: grid;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inside-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.second-column {
+    color:rgb(255, 253, 250);
+    background-color: rgb(0, 0, 26);
+    padding: 30px;
+    height: fit-content;
+}
+
+.third-row {
+    display: inline-flex;
+}
+
+.box {
+    width: 35%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 40px;
+    margin-right: 0px;
+}
